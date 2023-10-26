@@ -27,6 +27,8 @@ Enumeración Post Explotación -> Usuarios -> Locales
                                        -> Dominio -> Lista_usuarios_miembros
                              -> S.O. -> Nombre_S.O. y versión
                                      -> Arquitectura
+			     -> Software instalado -> Listar_todos_los_software_instalados_x86_y_x64 -> Revisar_archivos_de_configuración
+												     -> Si aplica intentar contectarte
                              -> Archivos con credenciales -> Descripción_Hallazgo -> Contraseñas, api key, etc.
 
 Enumeración caza de credenciales validas en la red -> Lista_equipos_red, Lista_contraseñas_obtenidas, Lista_usuarios_obtenidos -> Descripción_Resultado -> Descripción_Maquina_Comprometida
