@@ -1,0 +1,33 @@
+IP - x.x.x.x
+Enumeración -> Puertos -> Hubo hallazgo -> NumeroPuerto -> Descripción_Hallazgo 
+                                        -> NumeroPuerto -> Descripción_Hallazgo 
+                       -> No hubo hallazgo -> NumeroPuerto -> Descripción_de_la_prueba
+                                           -> NumeroPuerto -> Descripción_de_la_prueba
+                       -> No enumerado -> NumeroPuerto -> Que_puedo_enumerar?
+                                       -> NumeroPuerto -> Que_puedo_enumerar?
+
+Para intentar -> Puertos -> Funciono -> NumeroPuerto -> Descripción_acción_realizada -> Descripción_resultado_obtenido 
+                                     -> NumeroPuerto -> Descripción_acción_realizada -> Descripción_resultado_obtenido 
+                         -> No funciono -> NumeroPuerto -> Descripción_acción_realizada -> Descripción_resultado_obtenido
+                                        -> NumeroPuerto -> Descripción_acción_realizada -> Descripción_resultado_obtenido
+                         -> No intente -> NumeroPuerto -> Que_puedo_intentar?
+                                       -> NumeroPuerto -> Que_puedo_intentar?
+
+Explote -> Descripción_explotación -> Descripción_tipo_de_acceso_obtenido
+
+Escalación de privilegios -> Descripción_acción_realizada -> Nivel_de_privilegio_obtenido
+                                                          -> Usuario
+                                                          -> Herramienta_utilizada
+
+Enumeración Post Explotación -> Usuarios -> Locales
+                                         -> Servicio
+                                         -> Dominio
+                             -> Grupos -> Locales -> Administrators -> Lista_usuarios_miembros
+                                                  -> Remote Desktop Users -> Lista_usuarios_miembros
+                                       -> Dominio -> Lista_usuarios_miembros
+                             -> S.O. -> Nombre_S.O. y versión
+                                     -> Arquitectura
+                             -> Archivos con credenciales -> Descripción_Hallazgo -> Contraseñas, api key, etc.
+
+Enumeración caza de credenciales validas en la red -> Lista_equipos_red, Lista_contraseñas_obtenidas, Lista_usuarios_obtenidos -> Descripción_Resultado -> Descripción_Maquina_Comprometida
+														 
